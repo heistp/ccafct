@@ -92,9 +92,9 @@ The test process is as follows:
 Multiple CCAs are tested sequentially, across multiple RTTs. The CCAs
 under test may be specified using the -cca flag at the command line.
 The FCT workload introduces flows with an exponential distribution,
-and chooses flows with a lognormal distribution. These and other
-parameter changes must be made by modifying the globals at the top of
-the program's source code.
+and chooses flow lengths with a lognormal distribution. These and
+other parameter changes must be made by modifying the globals at the
+top of the program's source code.
 
 The harm calculations quantify the CCA's impact on the FCT results. As
 a "less is better" metric, FCT harm is calculated as:
